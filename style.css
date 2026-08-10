@@ -3,7 +3,6 @@
    STYLE.CSS
 ========================================================= */
 
-
 /* =========================================================
    VARIÁVEIS
 ========================================================= */
@@ -1240,7 +1239,6 @@ input {
         white-space: nowrap;
     }
 
-
     .hero {
         padding: 60px 20px;
 
@@ -1267,7 +1265,6 @@ input {
         flex-direction: column;
     }
 
-
     .intro {
         padding: 90px 20px;
 
@@ -1283,7 +1280,6 @@ input {
         letter-spacing: -2px;
     }
 
-
     .styles,
     .tutorial,
     .articles,
@@ -1291,7 +1287,6 @@ input {
     .newsletter {
         padding: 90px 20px;
     }
-
 
     .section-top {
         align-items: flex-start;
@@ -1301,7 +1296,6 @@ input {
     .section-top h2 {
         font-size: 60px;
     }
-
 
     .style-grid {
         grid-template-columns: 1fr;
@@ -1320,7 +1314,6 @@ input {
         min-height: 350px;
     }
 
-
     .tutorial-heading {
         gap: 25px;
     }
@@ -1328,7 +1321,6 @@ input {
     .tutorial-heading h2 {
         font-size: 60px;
     }
-
 
     .article-grid {
         grid-template-columns: 1fr;
@@ -1338,11 +1330,9 @@ input {
         height: 330px;
     }
 
-
     .tips-title h2 {
         font-size: 44px;
     }
-
 
     .about {
         padding: 90px 20px;
@@ -1360,11 +1350,9 @@ input {
         font-size: 65vw;
     }
 
-
     .newsletter h2 {
         font-size: 44px;
     }
-
 
     .footer {
         padding: 70px 20px 25px;
@@ -1384,7 +1372,6 @@ input {
         flex-direction: column;
         gap: 10px;
     }
-
 }
 
 
@@ -1440,5 +1427,4 @@ input {
     .footer-brand {
         grid-column: auto;
     }
-
 }
