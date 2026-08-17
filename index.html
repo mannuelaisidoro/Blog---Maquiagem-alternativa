@@ -1,766 +1,461 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Maquiagem Alternativa — tutoriais, inspirações e dicas para estilos Gyaru, Gótico, Jirai Kei, Visual Kei, Punk e muito mais."
-    >
-
-    <title>Maquiagem Alternativa</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maquiagem Alternativa — Gótico, Gyaru, Punk, Visual Kei &amp; Jirai Kei</title>
+<meta name="description" content="Guia de maquiagem alternativa: tutoriais, dicas e inspirações de maquiagem gótica, gyaru, punk, visual kei e jirai kei.">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="header">
+<!-- ======================= HEADER ======================= -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a href="#topo" class="brand-name">Maquiagem<span>Alternativa</span></a>
+      <p class="brand-tagline">Seu guia para explorar a maquiagem gótica, gyaru, punk, visual kei, jirai kei e muito mais.</p>
+    </div>
 
-        <a href="#inicio" class="logo">
-            <span>MAQUIAGEM</span>
-            <strong>ALTERNATIVA</strong>
-        </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+    <label for="menu-toggle" class="menu-toggle-btn" aria-label="Abrir menu de navegação">
+      <span></span><span></span><span></span>
+    </label>
 
-        <nav class="nav">
-            <a href="#inicio">Início</a>
-            <a href="#estilos">Estilos</a>
-            <a href="#tutoriais">Tutoriais</a>
-            <a href="#artigos">Artigos</a>
-            <a href="#sobre">Sobre</a>
-        </nav>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#estilos">Maquiagens</a></li>
+        <li><a href="#estilos">Estilos</a></li>
+        <li><a href="#tutoriais">Tutoriais</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#inspiracoes">Inspirações</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-        <a href="#newsletter" class="header-button">
-            NEWSLETTER
-        </a>
+<main id="topo">
 
-    </header>
+  <!-- ======================= HERO / BANNER ======================= -->
+  <section class="hero">
+    <div class="hero-texture" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Maquiagem Alternativa</p>
+      <h1>Descubra a<br>sua estética.</h1>
+      <p class="hero-text">Aprenda técnicas, conheça estilos e encontre inspiração para criar maquiagens alternativas que combinem com você.</p>
+      <a href="#estilos" class="btn btn-primary">Explorar maquiagens</a>
+    </div>
+    <div class="hero-image">
+      <img src="imagens/hero-maquiagem.jpg" alt="Pessoa com maquiagem alternativa em estilo gótico, olhos marcados e delineado intenso" loading="lazy">
+    </div>
+  </section>
 
-    <main>
+  <!-- ======================= INTRODUÇÃO ======================= -->
+  <section class="intro">
+    <div class="intro-inner">
+      <p class="eyebrow">Para começar</p>
+      <h2>O que é maquiagem alternativa?</h2>
+      <p>Maquiagem alternativa é uma forma de expressão visual que foge dos padrões tradicionais de beleza. Ela explora cores diferentes, formatos ousados, técnicas variadas e referências culturais de subculturas e cenas visuais — cada estilo carrega uma história, uma estética e uma forma própria de contar quem você é através do rosto.</p>
+      <p>Esse universo aparece em diversos estilos, como <strong>gótico</strong>, <strong>gyaru</strong>, <strong>punk</strong>, <strong>visual kei</strong> e <strong>jirai kei</strong> — cada um com sua própria identidade, técnicas e referências.</p>
+      <p class="intro-highlight">Não existe uma única maneira correta de fazer maquiagem alternativa. Cada pessoa pode adaptar o estilo à sua personalidade, ao seu rosto e ao seu momento.</p>
+    </div>
+  </section>
 
-        <section id="inicio" class="hero">
+  <hr class="stitch-divider" aria-hidden="true">
 
-            <div class="hero-content">
+  <!-- ======================= CONHEÇA OS ESTILOS ======================= -->
+  <section class="section styles-section" id="estilos">
+    <div class="section-head">
+      <p class="eyebrow">Explore</p>
+      <h2>Conheça os estilos</h2>
+    </div>
 
-                <div class="eyebrow">
-                    <span></span>
-                    BLOG DE BELEZA ALTERNATIVA
-                </div>
+    <div class="card-grid styles-grid">
 
-                <h1>
-                    SUA BELEZA.
-                    <em>SUAS REGRAS.</em>
-                </h1>
-
-                <p>
-                    Tutoriais, referências e dicas para quem transforma
-                    maquiagem em uma forma de expressão.
-                </p>
-
-                <div class="hero-actions">
-
-                    <a href="#estilos" class="button button-dark">
-                        EXPLORAR ESTILOS
-                    </a>
-
-                    <a href="#tutoriais" class="text-link">
-                        VER TUTORIAIS
-                        <span>↗</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-visual">
-
-                <div class="hero-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=85"
-                        alt="Produtos de maquiagem sobre uma superfície"
-                    >
-                </div>
-
-                <div class="hero-note">
-                    <span>01</span>
-                    <p>
-                        EXPERIMENTE.<br>
-                        COMBINE.<br>
-                        CRIE.
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
-
-        <div class="marquee">
-
-            <div class="marquee-track">
-
-                <span>GYARU</span>
-                <i>✦</i>
-                <span>GÓTICA</span>
-                <i>✦</i>
-                <span>JIRAI KEI</span>
-                <i>✦</i>
-                <span>VISUAL KEI</span>
-                <i>✦</i>
-                <span>PUNK</span>
-                <i>✦</i>
-                <span>ALT BEAUTY</span>
-                <i>✦</i>
-
-                <span>GYARU</span>
-                <i>✦</i>
-                <span>GÓTICA</span>
-                <i>✦</i>
-                <span>JIRAI KEI</span>
-                <i>✦</i>
-                <span>VISUAL KEI</span>
-                <i>✦</i>
-                <span>PUNK</span>
-                <i>✦</i>
-
-            </div>
-
+      <article class="card style-card">
+        <div class="card-img"><img src="imagens/gotica.jpg" alt="Maquiagem gótica com olhos escurecidos e delineado marcante" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Estilo</span>
+          <h3>Maquiagem Gótica</h3>
+          <p>Pele mais clara ou contrastada, olhos marcados, sombras escuras, delineado intenso e batons em tons profundos. Uma estética sombria, dramática e cheia de personalidade.</p>
+          <a href="#" class="btn btn-outline">Saiba mais</a>
         </div>
-
-        <section class="intro">
-
-            <div class="intro-number">
-                01
-            </div>
-
-            <div class="intro-content">
-
-                <p class="label">
-                    O QUE É O MAQUIAGEM ALTERNATIVA?
-                </p>
-
-                <h2>
-                    Maquiagem não precisa
-                    <span>seguir regras.</span>
-                </h2>
-
-                <p class="intro-description">
-                    Aqui você encontra um espaço para descobrir diferentes
-                    estilos de maquiagem alternativa e aprender a adaptar
-                    cada técnica para o seu próprio rosto, personalidade
-                    e estética.
-                </p>
-
-            </div>
-
-        </section>
-
-        <section id="estilos" class="styles">
-
-            <div class="section-top">
-
-                <div>
-                    <p class="label">EXPLORE</p>
-                    <h2>Estilos</h2>
-                </div>
-
-                <p>
-                    Do delicado ao dramático, descubra referências
-                    para experimentar algo novo.
-                </p>
-
-            </div>
-
-            <div class="style-grid">
-
-                <article class="style-card large">
-
-                    <div class="style-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1000&q=85"
-                            alt="Inspiração de maquiagem Gyaru"
-                        >
-
-                        <span class="style-number">01</span>
-                    </div>
-
-                    <div class="style-info">
-
-                        <div>
-                            <p>ESTILO</p>
-                            <h3>Gyaru</h3>
-                        </div>
-
-                        <a href="#artigos">→</a>
-
-                    </div>
-
-                    <p class="style-description">
-                        Olhos grandes e marcantes, cílios destacados,
-                        brilho e uma estética expressiva.
-                    </p>
-
-                </article>
-
-                <article class="style-card">
-
-                    <div class="style-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=85"
-                            alt="Inspiração de maquiagem gótica"
-                        >
-
-                        <span class="style-number">02</span>
-                    </div>
-
-                    <div class="style-info">
-
-                        <div>
-                            <p>ESTILO</p>
-                            <h3>Gótica</h3>
-                        </div>
-
-                        <a href="#artigos">→</a>
-
-                    </div>
-
-                    <p class="style-description">
-                        Contraste, sombras escuras, delineados intensos
-                        e uma estética dramática.
-                    </p>
-
-                </article>
-
-                <article class="style-card">
-
-                    <div class="style-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85"
-                            alt="Inspiração de maquiagem Jirai Kei"
-                        >
-
-                        <span class="style-number">03</span>
-                    </div>
-
-                    <div class="style-info">
-
-                        <div>
-                            <p>ESTILO</p>
-                            <h3>Jirai Kei</h3>
-                        </div>
-
-                        <a href="#artigos">→</a>
-
-                    </div>
-
-                    <p class="style-description">
-                        Blush marcado, olhos expressivos e uma mistura
-                        entre delicadeza e dramaticidade.
-                    </p>
-
-                </article>
-
-                <article class="style-card">
-
-                    <div class="style-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?auto=format&fit=crop&w=900&q=85"
-                            alt="Inspiração de maquiagem Visual Kei"
-                        >
-
-                        <span class="style-number">04</span>
-                    </div>
-
-                    <div class="style-info">
-
-                        <div>
-                            <p>ESTILO</p>
-                            <h3>Visual Kei</h3>
-                        </div>
-
-                        <a href="#artigos">→</a>
-
-                    </div>
-
-                    <p class="style-description">
-                        Formas marcantes, contraste, criatividade
-                        e liberdade visual.
-                    </p>
-
-                </article>
-
-                <article class="style-card large">
-
-                    <div class="style-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1000&q=85"
-                            alt="Inspiração de maquiagem Punk"
-                        >
-
-                        <span class="style-number">05</span>
-                    </div>
-
-                    <div class="style-info">
-
-                        <div>
-                            <p>ESTILO</p>
-                            <h3>Punk</h3>
-                        </div>
-
-                        <a href="#artigos">→</a>
-
-                    </div>
-
-                    <p class="style-description">
-                        Delineados fortes, olhos escuros e uma estética
-                        que valoriza atitude e personalidade.
-                    </p>
-
-                </article>
-
-                <article class="style-card custom-card">
-
-                    <span class="custom-symbol">✦</span>
-
-                    <p class="label">
-                        NÃO ENCONTROU O SEU?
-                    </p>
-
-                    <h3>
-                        Crie sua<br>
-                        própria estética.
-                    </h3>
-
-                    <a href="#artigos" class="button button-light">
-                        COMEÇAR →
-                    </a>
-
-                </article>
-
-            </div>
-
-        </section>
-
-        <section id="tutoriais" class="tutorial">
-
-            <div class="tutorial-heading">
-
-                <div class="tutorial-number">
-                    02
-                </div>
-
-                <div>
-                    <p class="label">APRENDA FAZENDO</p>
-                    <h2>Tutoriais</h2>
-                </div>
-
-            </div>
-
-            <div class="tutorial-feature">
-
-                <div class="video-wrapper">
-
-                    <iframe
-                        src="https://www.youtube.com/embed/ScMzIvxBSi4"
-                        title="Tutorial de maquiagem"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
-
-                </div>
-
-                <div class="tutorial-text">
-
-                    <p class="label">
-                        TUTORIAL EM DESTAQUE
-                    </p>
-
-                    <h3>
-                        Comece pelo básico.
-                    </h3>
-
-                    <p>
-                        Antes de tentar uma maquiagem super elaborada,
-                        domine algumas técnicas essenciais. Depois,
-                        você poderá combiná-las para construir praticamente
-                        qualquer estética.
-                    </p>
-
-                    <div class="tutorial-list">
-
-                        <div>
-                            <span>01</span>
-                            <p>Preparação da pele</p>
-                        </div>
-
-                        <div>
-                            <span>02</span>
-                            <p>Delineado</p>
-                        </div>
-
-                        <div>
-                            <span>03</span>
-                            <p>Aplicação de sombras</p>
-                        </div>
-
-                        <div>
-                            <span>04</span>
-                            <p>Cílios e acabamento</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="artigos" class="articles">
-
-            <div class="section-top">
-
-                <div>
-                    <p class="label">DO BLOG</p>
-                    <h2>Últimos artigos</h2>
-                </div>
-
-                <a href="#" class="text-link">
-                    VER TODOS →
-                </a>
-
-            </div>
-
-            <div class="article-grid">
-
-                <article class="article-card">
-
-                    <div class="article-image">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85"
-                            alt="Kit de maquiagem"
-                        >
-
-                        <span>GUIA</span>
-
-                    </div>
-
-                    <div class="article-content">
-
-                        <p class="article-date">
-                            10 AGO 2026
-                        </p>
-
-                        <h3>
-                            Como montar seu primeiro kit de maquiagem alternativa
-                        </h3>
-
-                        <p>
-                            Os produtos essenciais para começar sem
-                            precisar comprar uma coleção inteira.
-                        </p>
-
-                        <a href="#">
-                            LER ARTIGO →
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <article class="article-card">
-
-                    <div class="article-image">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=85"
-                            alt="Maquiagem com olhos destacados"
-                        >
-
-                        <span>TÉCNICA</span>
-
-                    </div>
-
-                    <div class="article-content">
-
-                        <p class="article-date">
-                            06 AGO 2026
-                        </p>
-
-                        <h3>
-                            Como adaptar uma maquiagem Gyaru para o seu rosto
-                        </h3>
-
-                        <p>
-                            Entenda os principais elementos da estética
-                            e aprenda a adaptá-los.
-                        </p>
-
-                        <a href="#">
-                            LER ARTIGO →
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <article class="article-card">
-
-                    <div class="article-image">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1500839941678-aae14dbfae9c?auto=format&fit=crop&w=900&q=85"
-                            alt="Maquiagem escura"
-                        >
-
-                        <span>INSPIRAÇÃO</span>
-
-                    </div>
-
-                    <div class="article-content">
-
-                        <p class="article-date">
-                            02 AGO 2026
-                        </p>
-
-                        <h3>
-                            7 ideias de maquiagem gótica para experimentar
-                        </h3>
-
-                        <p>
-                            Do visual mais discreto até uma produção
-                            completamente dramática.
-                        </p>
-
-                        <a href="#">
-                            LER ARTIGO →
-                        </a>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-        <section class="tips">
-
-            <div class="tips-title">
-
-                <p class="label">
-                    ANTES DE COMEÇAR
-                </p>
-
-                <h2>
-                    Algumas coisas que
-                    <em>gostaríamos</em>
-                    de ter ouvido.
-                </h2>
-
-            </div>
-
-            <div class="tips-list">
-
-                <div class="tip">
-
-                    <span>01</span>
-
-                    <div>
-                        <h3>
-                            Você não precisa copiar ninguém.
-                        </h3>
-
-                        <p>
-                            Use referências como ponto de partida.
-                            A maquiagem fica muito mais interessante
-                            quando você coloca algo seu nela.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="tip">
-
-                    <span>02</span>
-
-                    <div>
-                        <h3>
-                            Seu rosto não precisa ser igual ao tutorial.
-                        </h3>
-
-                        <p>
-                            Técnicas podem ser adaptadas para diferentes
-                            formatos de rosto e características.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="tip">
-
-                    <span>03</span>
-
-                    <div>
-                        <h3>
-                            Errar faz parte.
-                        </h3>
-
-                        <p>
-                            O delineado não vai ficar perfeito de primeira.
-                            Praticar também faz parte da diversão.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="sobre" class="about">
-
-            <div class="about-big-text">
-                ALT
-            </div>
-
-            <div class="about-content">
-
-                <p class="label">
-                    SOBRE O BLOG
-                </p>
-
-                <h2>
-                    Feito para quem
-                    <span>não quer passar despercebida.</span>
-                </h2>
-
-                <p>
-                    Maquiagem Alternativa nasceu como um espaço para reunir
-                    pessoas que gostam de experimentar estéticas diferentes.
-                    Aqui, Gyaru, Gótico, Jirai Kei, Visual Kei, Punk e várias
-                    outras referências podem coexistir.
-                </p>
-
-                <p>
-                    Não existe uma maneira única de ser alternativa.
-                    Existe a maneira que faz sentido para você.
-                </p>
-
-            </div>
-
-        </section>
-
-        <section id="newsletter" class="newsletter">
-
-            <div>
-
-                <p class="label">
-                    FIQUE POR DENTRO
-                </p>
-
-                <h2>
-                    Novos tutoriais.
-                    Novas ideias.
-                    <em>Na sua caixa de entrada.</em>
-                </h2>
-
-            </div>
-
-            <form class="newsletter-form">
-
-                <input
-                    type="email"
-                    placeholder="seuemail@exemplo.com"
-                    aria-label="Seu e-mail"
-                    required
-                >
-
-                <button type="submit">
-                    INSCREVER →
-                </button>
-
-            </form>
-
-        </section>
-
-    </main>
-
-    <footer class="footer">
-
-        <div class="footer-top">
-
-            <div class="footer-brand">
-
-                <a href="#inicio" class="logo footer-logo">
-                    <span>MAQUIAGEM</span>
-                    <strong>ALTERNATIVA</strong>
-                </a>
-
-                <p>
-                    Beleza alternativa para pessoas
-                    que gostam de criar suas próprias regras.
-                </p>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h4>NAVEGAÇÃO</h4>
-
-                <a href="#inicio">Início</a>
-                <a href="#estilos">Estilos</a>
-                <a href="#tutoriais">Tutoriais</a>
-                <a href="#artigos">Artigos</a>
-                <a href="#sobre">Sobre</a>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h4>ESTILOS</h4>
-
-                <a href="#estilos">Gyaru</a>
-                <a href="#estilos">Gótica</a>
-                <a href="#estilos">Jirai Kei</a>
-                <a href="#estilos">Visual Kei</a>
-                <a href="#estilos">Punk</a>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h4>SOCIAL</h4>
-
-                <a href="#">Instagram</a>
-                <a href="#">Pinterest</a>
-                <a href="#">TikTok</a>
-                <a href="#">YouTube</a>
-
-            </div>
-
+      </article>
+
+      <article class="card style-card">
+        <div class="card-img"><img src="imagens/gyaru.jpg" alt="Maquiagem gyaru com olhos grandes, cílios marcantes e brilho" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Estilo</span>
+          <h3>Maquiagem Gyaru</h3>
+          <p>Olhos maiores e destacados, cílios marcantes, delineado bem definido, brilho e uma aparência mais glamourosa. Um estilo vibrante inspirado nas ruas de Shibuya.</p>
+          <a href="#" class="btn btn-outline">Saiba mais</a>
         </div>
+      </article>
 
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 Maquiagem Alternativa.
-            </p>
-
-            <p>
-                FEITO PARA EXPRESSAR.
-            </p>
-
+      <article class="card style-card">
+        <div class="card-img"><img src="imagens/punk.jpg" alt="Maquiagem punk com olhos fortes e aparência ousada" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Estilo</span>
+          <h3>Maquiagem Punk</h3>
+          <p>Olhos fortes, delineados marcantes, sombras escuras e uma aparência mais ousada e rebelde. Feita para quebrar regras e afirmar atitude.</p>
+          <a href="#" class="btn btn-outline">Saiba mais</a>
         </div>
+      </article>
 
-    </footer>
+      <article class="card style-card">
+        <div class="card-img"><img src="imagens/visual-kei.jpg" alt="Maquiagem visual kei com delineado dramático e cores intensas" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Estilo</span>
+          <h3>Maquiagem Visual Kei</h3>
+          <p>Grande liberdade visual: delineados dramáticos, sombras intensas, cores diferentes e elementos inspirados na estética das bandas de Visual Kei japonesas.</p>
+          <a href="#" class="btn btn-outline">Saiba mais</a>
+        </div>
+      </article>
+
+      <article class="card style-card">
+        <div class="card-img"><img src="imagens/jirai-kei.jpg" alt="Maquiagem jirai kei com tons rosados e olhos delicados e dramáticos" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Estilo</span>
+          <h3>Maquiagem Jirai Kei</h3>
+          <p>Olhos destacados, tons rosados ou avermelhados, aparência delicada combinada com elementos mais dramáticos e bastante atenção aos olhos.</p>
+          <a href="#" class="btn btn-outline">Saiba mais</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= TUTORIAIS ======================= -->
+  <section class="section tutorials-section" id="tutoriais">
+    <div class="section-head">
+      <p class="eyebrow">Passo a passo</p>
+      <h2>Comece por aqui: tutoriais para iniciantes</h2>
+    </div>
+
+    <div class="card-grid tutorials-grid">
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-gotico.jpg" alt="Tutorial de maquiagem gótica simples" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Gótico</span>
+          <h3>Como fazer uma maquiagem gótica simples</h3>
+          <p>Um passo a passo direto para montar uma base sombria sem complicar.</p>
+          <div class="card-meta">
+            <span>6 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-delineado.jpg" alt="Guia de delineado para maquiagem alternativa" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Técnica</span>
+          <h3>Guia de delineado para maquiagem alternativa</h3>
+          <p>Formatos, ângulos e ferramentas para dominar o delineado que dá cara a qualquer estilo.</p>
+          <div class="card-meta">
+            <span>8 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-gyaru.jpg" alt="Como destacar os olhos na maquiagem gyaru" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Gyaru</span>
+          <h3>Como destacar os olhos na maquiagem Gyaru</h3>
+          <p>Técnicas de camadas de cílios, delineado interno e brilho para um olhar maior.</p>
+          <div class="card-meta">
+            <span>7 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-jirai-kei.jpg" alt="Primeiros passos para uma maquiagem jirai kei" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Jirai Kei</span>
+          <h3>Primeiros passos para uma maquiagem Jirai Kei</h3>
+          <p>Como equilibrar delicadeza e drama nos olhos com tons rosados e avermelhados.</p>
+          <div class="card-meta">
+            <span>6 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-visual-kei.jpg" alt="Como criar um visual inspirado em visual kei" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Visual Kei</span>
+          <h3>Como criar um visual inspirado em Visual Kei</h3>
+          <p>Referências, cores e liberdade criativa para montar um look de palco.</p>
+          <div class="card-meta">
+            <span>9 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+      <article class="card tutorial-card">
+        <div class="card-img"><img src="imagens/tutorial-punk.jpg" alt="Maquiagem punk: como começar" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-category">Punk</span>
+          <h3>Maquiagem punk: como começar</h3>
+          <p>Os elementos essenciais para uma maquiagem com atitude e sem regras.</p>
+          <div class="card-meta">
+            <span>5 min de leitura</span>
+          </div>
+          <a href="#" class="btn btn-text">Ler tutorial →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= ARTIGO EM DESTAQUE ======================= -->
+  <section class="section featured-article">
+    <div class="section-head">
+      <p class="eyebrow">Artigo em destaque</p>
+      <h2>Maquiagem alternativa para iniciantes: por onde começar?</h2>
+    </div>
+
+    <article class="article-body">
+      <div class="article-img"><img src="imagens/artigo-destaque.jpg" alt="Processo de aplicação de maquiagem alternativa passo a passo" loading="lazy"></div>
+      <div class="article-text">
+        <p>Começar no universo da maquiagem alternativa pode parecer intimidador, mas o processo fica muito mais simples quando dividido em etapas. Veja por onde seguir:</p>
+        <ul class="article-list">
+          <li><strong>Escolha um estilo</strong> — observe referências de gótico, gyaru, punk, visual kei e jirai kei e veja com qual você mais se identifica.</li>
+          <li><strong>Produtos básicos</strong> — comece com o essencial: base, corretivo, sombras neutras e escuras, delineador e máscara de cílios.</li>
+          <li><strong>Prepare a pele</strong> — hidratação e primer ajudam a maquiagem a durar mais e ficar mais uniforme.</li>
+          <li><strong>Trabalhe os olhos</strong> — é onde a maior parte da expressão de cada estilo acontece.</li>
+          <li><strong>Escolha as cores</strong> — tons escuros para o gótico e punk, rosados para o jirai kei, brilhantes para o gyaru.</li>
+          <li><strong>Domine o delineado</strong> — pratique traços curtos antes de arriscar linhas longas.</li>
+          <li><strong>Use cílios com cuidado</strong> — postiços ajudam a intensificar o olhar em quase todos os estilos.</li>
+          <li><strong>Escolha o batom</strong> — tons profundos para o gótico, nude ou rosado para o jirai kei.</li>
+          <li><strong>Adapte ao seu rosto</strong> — o mesmo estilo pode ser ajustado conforme o formato dos seus olhos e rosto.</li>
+          <li><strong>Pratique sempre</strong> — cada tentativa ensina algo novo sobre técnica e proporção.</li>
+          <li><strong>Use referências sem copiar</strong> — inspire-se em várias fontes para criar algo que seja seu.</li>
+        </ul>
+        <p class="pull-quote">"Você não precisa acertar de primeira. Maquiagem também é prática, criatividade e experimentação."</p>
+      </div>
+    </article>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= DICAS ======================= -->
+  <section class="section tips-section" id="dicas">
+    <div class="section-head">
+      <p class="eyebrow">Direto ao ponto</p>
+      <h2>Dicas para sua maquiagem alternativa</h2>
+    </div>
+
+    <ul class="tips-list">
+      <li><span class="tip-mark" aria-hidden="true"></span>Comece com técnicas simples.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Pratique o delineado aos poucos.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Use referências para aprender.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Não tenha medo de experimentar.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Adapte os estilos ao seu rosto.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Teste diferentes combinações de cores.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Invista em produtos que você realmente utiliza.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Remova a maquiagem corretamente depois do uso.</li>
+      <li><span class="tip-mark" aria-hidden="true"></span>Não existe uma única forma correta de seguir uma estética.</li>
+    </ul>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= GALERIA DE INSPIRAÇÕES ======================= -->
+  <section class="section gallery-section" id="inspiracoes">
+    <div class="section-head">
+      <p class="eyebrow">Referências visuais</p>
+      <h2>Inspirações</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/gotica-1.jpg" alt="Inspiração de maquiagem gótica" loading="lazy">
+        <figcaption>Gótico — olhar profundo</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/gyaru-1.jpg" alt="Inspiração de maquiagem gyaru" loading="lazy">
+        <figcaption>Gyaru — brilho e volume</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/punk-1.jpg" alt="Inspiração de maquiagem punk" loading="lazy">
+        <figcaption>Punk — atitude crua</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/visual-kei-1.jpg" alt="Inspiração de maquiagem visual kei" loading="lazy">
+        <figcaption>Visual Kei — liberdade total</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/jirai-kei-1.jpg" alt="Inspiração de maquiagem jirai kei" loading="lazy">
+        <figcaption>Jirai Kei — doce e dramático</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/delineado-1.jpg" alt="Inspiração de delineado alternativo" loading="lazy">
+        <figcaption>Delineados alternativos</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/olhos-1.jpg" alt="Inspiração de diferentes estilos de olhos" loading="lazy">
+        <figcaption>Estilos de olhos</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="imagens/inspiracoes/criativa-1.jpg" alt="Inspiração de maquiagem criativa" loading="lazy">
+        <figcaption>Maquiagens criativas</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= VÍDEOS ======================= -->
+  <section class="section videos-section">
+    <div class="section-head">
+      <p class="eyebrow">Aprenda no seu ritmo</p>
+      <h2>Aprenda assistindo</h2>
+    </div>
+
+    <div class="card-grid videos-grid">
+
+      <article class="card video-card">
+        <div class="video-placeholder" role="img" aria-label="Vídeo em breve: tutorial de maquiagem gótica">
+          <span class="play-icon" aria-hidden="true">▶</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Vídeo</span>
+          <h3>Tutorial de maquiagem gótica</h3>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-placeholder" role="img" aria-label="Vídeo em breve: tutorial de delineado">
+          <span class="play-icon" aria-hidden="true">▶</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Vídeo</span>
+          <h3>Tutorial de delineado</h3>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-placeholder" role="img" aria-label="Vídeo em breve: tutorial gyaru">
+          <span class="play-icon" aria-hidden="true">▶</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Vídeo</span>
+          <h3>Tutorial Gyaru</h3>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-placeholder" role="img" aria-label="Vídeo em breve: tutorial jirai kei">
+          <span class="play-icon" aria-hidden="true">▶</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Vídeo</span>
+          <h3>Tutorial Jirai Kei</h3>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-placeholder" role="img" aria-label="Vídeo em breve: tutorial visual kei">
+          <span class="play-icon" aria-hidden="true">▶</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Vídeo</span>
+          <h3>Tutorial Visual Kei</h3>
+        </div>
+      </article>
+
+    </div>
+    <p class="videos-note">* Espaços reservados para incorporação de vídeos (ex.: via <code>&lt;iframe&gt;</code> do YouTube) assim que os conteúdos estiverem disponíveis.</p>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= PRODUTOS BÁSICOS ======================= -->
+  <section class="section products-section">
+    <div class="section-head">
+      <p class="eyebrow">Materiais</p>
+      <h2>Produtos básicos</h2>
+      <p class="section-lead">Conheça os principais produtos usados na maquiagem alternativa e para que servem.</p>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-item"><h3>Primer</h3><p>Prepara a pele e ajuda a maquiagem a durar mais.</p></div>
+      <div class="product-item"><h3>Base</h3><p>Uniformiza o tom da pele antes das demais etapas.</p></div>
+      <div class="product-item"><h3>Corretivo</h3><p>Cobre olheiras e pequenas imperfeições pontuais.</p></div>
+      <div class="product-item"><h3>Pó</h3><p>Fixa a base e reduz o brilho da pele.</p></div>
+      <div class="product-item"><h3>Blush</h3><p>Dá cor e volume às maçãs do rosto.</p></div>
+      <div class="product-item"><h3>Paleta de sombras</h3><p>Base para construir o olhar em cada estilo.</p></div>
+      <div class="product-item"><h3>Delineador</h3><p>Define o formato dos olhos com traços precisos.</p></div>
+      <div class="product-item"><h3>Lápis de olho</h3><p>Ótimo para esfumados e linhas internas.</p></div>
+      <div class="product-item"><h3>Máscara de cílios</h3><p>Alonga e dá volume ao olhar.</p></div>
+      <div class="product-item"><h3>Cílios postiços</h3><p>Intensificam o efeito dramático dos olhos.</p></div>
+      <div class="product-item"><h3>Batom</h3><p>Finaliza o visual com cor nos lábios.</p></div>
+      <div class="product-item"><h3>Gloss</h3><p>Adiciona brilho, sozinho ou sobre o batom.</p></div>
+      <div class="product-item"><h3>Pincéis</h3><p>Ferramentas essenciais para aplicação e esfumado.</p></div>
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ======================= SOBRE ======================= -->
+  <section class="section about-section" id="sobre">
+    <div class="about-inner">
+      <p class="eyebrow">Nossa comunidade</p>
+      <h2>Sobre o Maquiagem Alternativa</h2>
+      <p>O Maquiagem Alternativa foi criado para reunir informações, tutoriais, dicas e inspirações para pessoas que gostam de maquiagem alternativa — de quem está começando a quem já domina a técnica e busca novas referências.</p>
+      <p class="about-highlight">Este espaço foi criado para quem gosta de experimentar, aprender e transformar a maquiagem em uma forma de expressão.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">Maquiagem<span>Alternativa</span></p>
+      <p class="footer-slogan">Explore seu estilo. Aprenda. Experimente. Crie.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navegação do rodapé">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#estilos">Estilos</a></li>
+        <li><a href="#tutoriais">Tutoriais</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#inspiracoes">Inspirações</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-social">
+      <p>Siga a gente</p>
+      <ul>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="TikTok">TikTok</a></li>
+        <li><a href="#" aria-label="YouTube">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Maquiagem Alternativa. Todos os direitos reservados.</p>
+  </div>
+</footer>
 
 </body>
-
 </html>
